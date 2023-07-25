@@ -12,6 +12,7 @@ Dockerfile 을 사용하여 Docker Container Image 를 빌드함. Dockerfile 은
 ## 3. 마지막 마침표 . 
 지정한 폴더 내에 Dockerfile 을 봐야한다고 지정해줌.
 
+
 # 2. docker run -dp 127.0.0.1:3300:3300 getting-started
 
 ## 1. docker run getting-started
@@ -22,3 +23,14 @@ background 에서 container 실행
 
 ## 3. -p or --publish "host"
 host 와 container 와 port mapping
+
+
+docker images - host 에 있는 모든 docker image 정보 출력
+
+# 3. docker image imageRepo:tagname newImageRepo:newTagname
+
+기존에 있던 docker image 를 새로운 repo, tagname 으로 복사
+
+# 4. docker build --platform linux/amd64 -t imageRepo .
+
+docker 를 빌드, 플랫폼은 linux/amd64, tag 는 imageRepo 안에 있는 tag(.)
