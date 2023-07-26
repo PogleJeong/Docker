@@ -92,7 +92,10 @@ Docker image 를 공유하기 위해서는 Docker 등록이 필요하며, 기본
 docker push eunseong98/getting-started(repo name):0.0.1(tagname)
 
 
-## 4. 새 인스턴스에서 image 사용하기
+## 4. 새 인스턴스에서 image 사용하기 (에러)
 
 docker build --platform linux/amd64 -t eunseong98/getting-started .
 docker build -f "C:\Users\pogle\desktop\Personal Project\docker\getting-started\app\Dockerfile" .
+
+Play with docker(PWD) 에서 실행해보기
+[Docker-Share the application](https://docs.docker.com/get-started/04_sharing_app/)

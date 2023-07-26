@@ -3,6 +3,7 @@ Docker
 
 # 0. Container 란?
 
+
 IT 기술에서의 Container 도 물류분야에서의 Container 처럼 이동성을 실현하기 위한 기술이다.
 이는 어느 환경이나 인프라로든 쉽게 이동할 수 있는 장점을 가진다
 
@@ -21,6 +22,8 @@ Docker file 를 만든 후 빌드하여 Docker Image 를 만듦
 
 + Docker file - 컨테이너 실행에 필요한 파일과 설정값을 포함하는 파일
 
+Docker Image 는 **Docker hub** 에서 자신이 필요한 소프트웨어에 맞게 pull 할 수 잇음.
+
 # 2. Docker Container
 
 Docker Image 가 실행한 상태, Docker Image 를 통해 Docker Container 생성
@@ -38,8 +41,6 @@ Docker Container 는 Docker Image 에서 하나의 Container Layer 에 저장됨
 
 
 
-======
 참고자료
 1. [클라우드메이트 TE팀 이도현](https://tech.cloudmt.co.kr/2022/06/29/%EB%8F%84%EC%BB%A4%EC%99%80-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%9D%98-%EC%9D%B4%ED%95%B4-1-3-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%82%AC%EC%9A%A9%EB%B2%95/)
 2. [클라우드메이트 - 컨테이너란?](https://cloudmt.co.kr/?p=3927)
-======

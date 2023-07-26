@@ -34,3 +34,11 @@ docker images - host 에 있는 모든 docker image 정보 출력
 # 4. docker build --platform linux/amd64 -t imageRepo .
 
 docker 를 빌드, 플랫폼은 linux/amd64, tag 는 imageRepo 안에 있는 tag(.)
+
+# 5. docker run --name ws1 httpd
+
+httpd 도커이미지를 가지고 ws1이라는 이름의 container 를 생성
+
+# 6. docker ps -a 
+
+현재 생성된 모든 container 출력
